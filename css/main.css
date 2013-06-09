@@ -5,7 +5,32 @@
    ========================================================================== */
 
 
+.message-alert, .message-alert * {
+  -webkit-transition: all 0.3s ease-out;
+  -webkit-animation-name: colorit0;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -moz-transition: all 0.3s ease-out;
+  -moz-animation-name: colorit0;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 30s;
+}
 
+@-webkit-keyframes colorit0 {
+    0% {color: #8F278B;}
+    25% {color: #F38F1E;}
+    50% {color: #88C23F;}
+    75% {color: #E91E79;}
+    100% {color: #8F278B;}
+}
+
+@-moz-keyframes colorit0 {
+    0% {color: #8F278B;}
+    25% {color: #F38F1E;}
+    50% {color: #88C23F;}
+    75% {color: #E91E79;}
+    100% {color: #8F278B;}
+}
 
 
 
