@@ -5,6 +5,17 @@
    ========================================================================== */
 
 
+.btn-alert {
+  -webkit-transition: all 0.3s ease-out;
+  -webkit-animation-name: colorit0;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+  -moz-transition: all 0.3s ease-out;
+  -moz-animation-name: colorit1;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 30s;
+}
+
 .message-alert, .message-alert * {
   -webkit-transition: all 0.3s ease-out;
   -webkit-animation-name: colorit0;
@@ -33,6 +44,22 @@
 }
 
 
+
+@-webkit-keyframes colorit1 {
+    0% {background-image: webkit-gradient(linear,0 0,0 100%,from(#8F278B),to(#8F278B));}
+    25% {background-color: #F38F1E!important;}
+    50% {background-color: #88C23F!important;}
+    75% {background-color: #E91E79!important;}
+    100% {background-color: #8F278B!important;}
+}
+
+@-moz-keyframes colorit1 {
+    0% {background-color: #8F278B;}
+    25% {background-color: #F38F1E;}
+    50% {background-color: #88C23F;}
+    75% {background-color: #E91E79;}
+    100% {background-color: #8F278B;}
+}
 
 
 
